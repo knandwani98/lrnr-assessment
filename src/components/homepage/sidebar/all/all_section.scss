@@ -1,0 +1,30 @@
+.all {
+  .nav {
+    position: fixed;
+    padding-block: 1rem;
+    width: calc(350px - (4rem * 2));
+    background-color: #fafafa;
+
+    h3 {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .icon {
+      font-size: 0.8rem;
+
+      &#add,
+      &:hover {
+        color: var(--accent);
+      }
+    }
+  }
+
+  .all-nodes {
+    .collections {
+      .node {
+      }
+    }
+  }
+}

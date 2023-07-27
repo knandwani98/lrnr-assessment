@@ -1,0 +1,23 @@
+.side-bar {
+  // position: fixed;
+  color: var(--light-grey);
+  height: 100%;
+  width: 350px;
+  background-color: #fafafa;
+  overflow: scroll !important;
+
+  .main {
+    h2 {
+      font-size: 2rem;
+    }
+
+    .sec {
+      text-align: center;
+      margin-top: 4rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

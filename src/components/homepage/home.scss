@@ -1,0 +1,14 @@
+.home {
+  background-color: white;
+  height: calc(100vh - 6rem);
+  margin-top: 6rem;
+
+  &.sidebar-on {
+    height: calc(100vh - 8rem);
+    margin-top: 8rem;
+  }
+
+  & > * {
+    align-self: flex-start;
+  }
+}
